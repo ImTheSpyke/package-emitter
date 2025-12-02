@@ -2,7 +2,7 @@
   "name": "@imthespyke/emitter",
   "author": "ImTheSpyke",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple Emitter module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,7 +14,7 @@
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "publish": "npm publish --access public"
+    "pub": "npm publish --access public"
   },
   "repository": {
     "type": "git",
